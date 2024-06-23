@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DockerSelenium" verbose="1"  parallel = "tests">
+  <test name="GoogleHomeTest1">
+    <classes>
+      <class name="yevatiTestCase.GoogleHomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="GoogleResultTest2">
+    <parameter name="Keywordd" value="Git"/> 
+    <parameter name="Index" value="2"/>
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest"/>
+    </classes>
+  </test> <!-- Test -->
+  	<test name="GoogleResultTest3">
+    <parameter name="Keywordd" value="SQL"/>
+    <parameter name="Index" value="2"/>
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="GoogleHomeTest4">
+    <classes>
+      <class name="yevatiTestCase.GoogleHomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="GoogleResultTest5">
+    <parameter name="Keywordd" value="Git"/> 
+    <parameter name="Index" value="2"/>
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest"/>
+    </classes>
+  </test> <!-- Test -->
+  	<test name="GoogleResultTest6">
+    <parameter name="Keywordd" value="SQL"/>
+    <parameter name="Index" value="2"/>
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

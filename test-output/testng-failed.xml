@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [DockerSelenium]">
+  <parameter name="Keywordd" value="SQL"/>
+  <parameter name="Index" value="2"/>
+  <test parallel="tests" name="GoogleHomeTest1(failed)">
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+      <class name="yevatiTestCase.GoogleHomeTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- yevatiTestCase.GoogleHomeTest -->
+    </classes>
+  </test> <!-- GoogleHomeTest1(failed) -->
+  <test parallel="tests" name="GoogleResultTest3(failed)">
+    <parameter name="Keywordd" value="SQL"/>
+    <parameter name="Index" value="2"/>
+    <classes>
+      <class name="yevatiTestCase.GoogleResultTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="searchPageTest"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+      <class name="yevatiTestCase.GoogleHomeTest">
+        <methods>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- yevatiTestCase.GoogleHomeTest -->
+    </classes>
+  </test> <!-- GoogleResultTest3(failed) -->
+</suite> <!-- Failed suite [DockerSelenium] -->

@@ -1,0 +1,10 @@
+FROM openjdk:17-alpine
+RUN apk add curl jq
+WORKDIR C:/Project/GemResource
+COPY target/selenium-docker.jar selenium-docker.jar
+COPY target/selenium-docker-tests.jar selenium-docker-tests.jar
+COPY target/libs libs
+COPY testng.xml testng.xml
+#ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DHUB_HOST=$HUB_HOST -DBROWSER=$BROWSER org.testng.TestNG $MODULE
+Add healthcheck.sh healthcheck.sh
+ENTRYPOINT sh healthcheck.sh

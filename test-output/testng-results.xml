@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T12:24:15Z" name="DockerSelenium" finished-at="2024-06-17T12:25:00Z" duration-ms="44582">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T12:24:15Z" name="GoogleResultTest5" finished-at="2024-06-17T12:24:35Z" duration-ms="19796">
+      <class name="yevatiTestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@247d8ae]" started-at="2024-06-17T17:54:15Z" name="setupDriver" finished-at="2024-06-17T17:54:16Z" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String, int)[pri:0, instance:yevatiTestCase.GoogleResultTest@247d8ae]" started-at="2024-06-17T17:54:16Z" name="searchPageTest" finished-at="2024-06-17T17:54:35Z" duration-ms="18714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Git]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@247d8ae]" started-at="2024-06-17T17:54:35Z" name="quitDriver" finished-at="2024-06-17T17:54:35Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+    </test> <!-- GoogleResultTest5 -->
+    <test started-at="2024-06-17T12:24:15Z" name="GoogleResultTest3" finished-at="2024-06-17T12:24:37Z" duration-ms="21467">
+      <class name="yevatiTestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@31e5415e]" started-at="2024-06-17T17:54:15Z" name="setupDriver" finished-at="2024-06-17T17:54:16Z" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String, int)[pri:0, instance:yevatiTestCase.GoogleResultTest@31e5415e]" started-at="2024-06-17T17:54:16Z" name="searchPageTest" finished-at="2024-06-17T17:54:37Z" duration-ms="20334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@31e5415e]" started-at="2024-06-17T17:54:37Z" name="quitDriver" finished-at="2024-06-17T17:54:37Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+    </test> <!-- GoogleResultTest3 -->
+    <test started-at="2024-06-17T12:24:15Z" name="GoogleHomeTest1" finished-at="2024-06-17T12:24:37Z" duration-ms="21985">
+      <class name="yevatiTestCase.GoogleHomeTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleHomeTest@770d3326]" started-at="2024-06-17T17:54:15Z" name="setupDriver" finished-at="2024-06-17T17:54:36Z" duration-ms="20198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchTest()[pri:0, instance:yevatiTestCase.GoogleHomeTest@770d3326]" started-at="2024-06-17T17:54:36Z" name="searchTest" finished-at="2024-06-17T17:54:37Z" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleHomeTest@770d3326]" started-at="2024-06-17T17:54:37Z" name="quitDriver" finished-at="2024-06-17T17:54:37Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleHomeTest -->
+    </test> <!-- GoogleHomeTest1 -->
+    <test started-at="2024-06-17T12:24:15Z" name="GoogleHomeTest4" finished-at="2024-06-17T12:24:39Z" duration-ms="23690">
+      <class name="yevatiTestCase.GoogleHomeTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleHomeTest@22e357dc]" started-at="2024-06-17T17:54:15Z" name="setupDriver" finished-at="2024-06-17T17:54:37Z" duration-ms="21896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchTest()[pri:0, instance:yevatiTestCase.GoogleHomeTest@22e357dc]" started-at="2024-06-17T17:54:37Z" name="searchTest" finished-at="2024-06-17T17:54:39Z" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleHomeTest@22e357dc]" started-at="2024-06-17T17:54:39Z" name="quitDriver" finished-at="2024-06-17T17:54:39Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleHomeTest -->
+    </test> <!-- GoogleHomeTest4 -->
+    <test started-at="2024-06-17T12:24:15Z" name="GoogleResultTest2" finished-at="2024-06-17T12:24:57Z" duration-ms="41323">
+      <class name="yevatiTestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@5ace1ed4]" started-at="2024-06-17T17:54:15Z" name="setupDriver" finished-at="2024-06-17T17:54:38Z" duration-ms="22344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String, int)[pri:0, instance:yevatiTestCase.GoogleResultTest@5ace1ed4]" started-at="2024-06-17T17:54:38Z" name="searchPageTest" finished-at="2024-06-17T17:54:57Z" duration-ms="18819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Git]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@5ace1ed4]" started-at="2024-06-17T17:54:57Z" name="quitDriver" finished-at="2024-06-17T17:54:57Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+    </test> <!-- GoogleResultTest2 -->
+    <test started-at="2024-06-17T12:24:35Z" name="GoogleResultTest6" finished-at="2024-06-17T12:25:00Z" duration-ms="24752">
+      <class name="yevatiTestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@193f604a]" started-at="2024-06-17T17:54:35Z" name="setupDriver" finished-at="2024-06-17T17:54:40Z" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String, int)[pri:0, instance:yevatiTestCase.GoogleResultTest@193f604a]" started-at="2024-06-17T17:54:40Z" name="searchPageTest" finished-at="2024-06-17T17:55:00Z" duration-ms="20259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:yevatiTestCase.GoogleResultTest@193f604a]" started-at="2024-06-17T17:55:00Z" name="quitDriver" finished-at="2024-06-17T17:55:00Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- yevatiTestCase.GoogleResultTest -->
+    </test> <!-- GoogleResultTest6 -->
+  </suite> <!-- DockerSelenium -->
+</testng-results>
