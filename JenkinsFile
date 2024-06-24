@@ -14,7 +14,7 @@
 						}
 					stage('Push Image'){
 						steps{
-						withCredentials([usernamePassword(credentialsId: 'DockerHub', passwordVariable: 'Kashid@11', usernameVariable: 'mangeshkashid')]) 
+						withCredentials([usernamePassword(credentialsId: 'DockerHub', passwordVariable: 'Kashid@11', usernameVariable: 'mangeshkashid@gmail.com')]) 
 								{
 								bat "docker login --username=${user} --password=${pass}"
 								bat "docker push mangeshkashid/mangesh-docker:latest"
