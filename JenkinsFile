@@ -16,7 +16,7 @@
 						steps{
 						withCredentials([usernamePassword(credentialsId: 'DockerHub', passwordVariable: 'Kashid@11', usernameVariable: 'mangeshkashid')]) {
 								bat "docker login --username=${user} --password=${pass}"
-								bat "docker path mangeshkashid/mangesh-docker:latest"
+								bat "docker push mangeshkashid/mangesh-docker:latest"
 								}
 							 }					
 						}
