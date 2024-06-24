@@ -14,9 +14,10 @@
 						}
 					stage("Push Image"){
 						steps{
-						withCredentials([usernamePassword(credentialsId: 'DockerHub', usernameVariable: 'mangeshkashid', passwordVariable: 'Kashid@11')])
+						withCredentials([usernamePassword(credentialsId: 'DockerHub', passwordVariable: 'Kashid@11', usernameVariable: 'mangeshkashid')]) {
 								bat "docker login --username=${user} --password=${pass}"
 								bat "docker path mangeshkashid/mangesh-docker:latest"
+								}
 							 }					
 						}
 				  	}
